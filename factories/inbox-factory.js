@@ -3,7 +3,6 @@
  */
 angular.module('EmailApp')
   .factory('InboxFactory', function InboxFactory ($q, $http, $location) {
-    'use strict';
     var exports = {};
 
     exports.messages = [];

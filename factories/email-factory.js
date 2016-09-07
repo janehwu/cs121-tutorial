@@ -3,13 +3,10 @@
  */
 angular.module('EmailApp')
   .factory('EmailFactory', function EmailFactory ($q, $http, $routeParams) {
-    'use strict';
     var exports = {};
 
     exports.reply = function (message) {
       if (message) {
-        // we would obviously hit the back-end here
-        // but let's just alert what we've typed
         alert('Reply content: ' + message);
       }
     };

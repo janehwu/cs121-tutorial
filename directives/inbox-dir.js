@@ -3,8 +3,6 @@
  */
 angular.module('EmailApp')
   .directive('inbox', function InboxDrctv () {
-    'use strict';
-
     return {
       restrict: 'EA',
       replace: true,
@@ -31,10 +29,6 @@ angular.module('EmailApp')
       },
 
       link: function (scope, element, attrs, ctrl) {
-        /* 
-          by convention we do not $ prefix arguments to the link function
-          this is to be explicit that they have a fixed order
-        */
       }
     }
   });

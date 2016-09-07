@@ -1,26 +1,20 @@
 [
   {
-    "from": "TicketFactory",
+    "from": "Srinidhi",
     "date": 1400956671914,
-    "subject": "Your confirmation #W45021238038",
+    "subject": "Hi Jane!",
     "id": 50223456
   },
   {
-    "from": "TravisCI",
+    "from": "Anthony",
     "date": 1400956671914,
-    "subject": "[Passed] conditionizr/conditionizr#1 (v0.1.0 - edd6500)",
+    "subject": "CS121 is awesome!",
     "id": 10824581
   },
   {
-    "from": "GitHub",
+    "from": "Alex",
     "date": 1400956671914,
-    "subject": "New repo 'conditionizr' created",
+    "subject": "Hi.",
     "id": 90345551
-  },
-  {
-    "from": "Google Feedburner",
-    "date": 1400956671914,
-    "subject": "New subscription",
-    "id": 74838344
   }
 ]
