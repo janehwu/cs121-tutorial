@@ -1,22 +1,30 @@
-<html ng-app="myApp">
+<!doctype html>
+<html ng-app="EmailApp">
     <head>
-    	<title>Sample Angular Controller App</title>
+    	<title>AngularJS Email App</title>
+        <link href="style.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <div ng-controller="TestCtrl">
-        	<h1>{{title}}</h1>
-        	<input type="text" ng-model="title">
-        </div>
-
-        <div ng-view></div>
+        
+        <main class="main" role="main">
+            <div class="wrapper">
+                <div ng-view class="flex"></div>
+            </div>
+        </main>
         
         <script src="jquery-3.1.0.min.js"></script>
-        <script src="angular.min.js"></script>
-        
-        <script>
-        	function TestCtrl($scope) {
-        		$scope.title = 'Write a title here...';
-        	};
-        </script>
+        <script src="angular.js"></script>
+        <script src="angular-route.js"></script>
+        <!-- App files -->
+        <script src="app.js"></script>
+        <script src="inbox.js"></script>
+        <script src="controllers/inbox-ctrl.js"></script>
+        <script src="controllers/email-ctrl.js"></script>
+        <script src="factories/inbox-factory.js"></script>
+        <script src="factories/email-factory.js"></script>
+        <script src="directives/inbox-dir.js"></script>
+        <script src="directives/email-dir.js"></script>
+
     </body>
 </html>
